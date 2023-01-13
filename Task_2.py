@@ -16,8 +16,8 @@ def create_list(numList):
 
 def addListPrime(numMulti, num):
     num = int(num)
-    print(f'На входе список из простых чисел {numMulti}, тип: {type( numMulti[0] )}\n'
-          f'Интервал списка: от 1 до {num}, тип: {type(num)}')
+    print(f'На входе список из простых чисел {numMulti}, тип: {type( numMulti[0] )}\n')
+ 
 
     arrListPrime = []
     for i in numMulti:
