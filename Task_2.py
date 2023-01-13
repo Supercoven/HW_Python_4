@@ -17,14 +17,14 @@ def create_list(numList):
 def addListPrime(numMulti, num):
     num = int(num)
     print(f'На входе список из простых чисел {numMulti}, тип: {type( numMulti[0] )}\n'
-          f'Интервал списка: от 1 до {num}, тип: {type(num)} ')
+          f'Интервал списка: от 1 до {num}, тип: {type(num)}')
 
     arrListPrime = []
     for i in numMulti:
 
         while(num % i == 0):
             num = num / i
-            print(f'num={num} , i ={i} ')
+            print(f'num={num} , i ={i}')
             arrListPrime.append(i)
         else:
             continue
@@ -32,7 +32,7 @@ def addListPrime(numMulti, num):
     print(f'Простые множители числа {num}: {arrListPrime}')
 
 
-num = input('Введите число для составления списка простых множителей: ')
+num = input('Введите число для составления списка простых множителей:')
 
 numMulti = create_list(num)
 addListPrime(numMulti, num)
