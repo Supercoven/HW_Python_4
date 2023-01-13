@@ -68,6 +68,3 @@ def main():
     print("Парсим сумму многочленов в словарь:", sum_dict(poly_dict1, poly_dict2))
     dictToFile(poly_dict1, "Homework4_5.txt")
 
-
-if __name__ == "__main__":
-    main()
